@@ -1,15 +1,17 @@
 package quangtester.common;
 
+import helpers.CaptureHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import keywords.DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-import quangtester.helpers.PropertiesHelper;
+import helpers.PropertiesHelper;
 
 public class BaseSetup {
     public static WebDriver driver;
@@ -54,7 +56,10 @@ public class BaseSetup {
     }
 
     @AfterMethod
-    public void closeDriver() {
+    public void closeDriver(ITestResult iTestResult) {
+        if(iTestResult.getStatus() == ITestResult.FAILURE){
+            CaptureHelper.captureScreenshot(iTestResult.getName());
+        }
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {

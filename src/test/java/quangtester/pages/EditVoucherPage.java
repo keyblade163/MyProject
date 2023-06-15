@@ -2,7 +2,9 @@ package quangtester.pages;
 
 import static keywords.WebActionUI.*;
 
+import keywords.DriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 
 public class EditVoucherPage {
@@ -18,19 +20,39 @@ public class EditVoucherPage {
     By switchActivityButton = By.xpath("//div[@class ='react-switch-bg']");
     By fromDate = By.xpath("//input[@placeholder='Từ ngày']");
     By toDate = By.xpath("//input[@placeholder='Đến ngày']");
+    By userManual = By.xpath("//html[@dir='ltr']");
+    By saveVoucher = By.xpath("//button[normalize-space()='Lưu']");
 
     public void clickEditGiftButton() {
         getWebElement(editVoucherButton).click();
     }
+    public void iFrameUserManual(){
+        DriverManager.getDriver().switchTo().frame(0);
+        scrollToElementWithJS(userManual);
+        waitForElementPresent(userManual, 3);
+        clearTextCtrlA(userManual);
+        setText(userManual,"Hướng dẫn automation");
+        DriverManager.getDriver().switchTo().parentFrame();
+
+    }
 
     public void editFirstVoucher() {
-        setText(voucherName, "Quà vieon number 2");
+        sleep(3);
+        clearTextCtrlA(voucherName);
+        clearTextCtrlA(voucherID);
+        clearTextCtrlA(pointsToRedeem);
+        clearTextCtrlA(totalVouchers);
+        clearTextCtrlA(voucherForm);
+        clearTextCtrlA(voucherValidity);
+        setText(voucherName, "Quà vieon number 3");
         setText(voucherID,"Giảm 100%");
         setText(pointsToRedeem,"10");
         setText(totalVouchers,"100");
         setText(voucherForm,"Dùng Điểm Đổi");
         setText(voucherValidity,"500 Ngày");
         getWebElement(switchActivityButton).click();
+        iFrameUserManual();
+        getWebElement(saveVoucher).click();
 
 
     }

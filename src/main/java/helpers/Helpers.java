@@ -1,4 +1,4 @@
-package quangtester.helpers;
+package helpers;
 
 public class Helpers {
     public static String getCurrentDir() {

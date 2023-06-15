@@ -1,4 +1,4 @@
-package quangtester.helpers;
+package helpers;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

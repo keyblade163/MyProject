@@ -1,12 +1,9 @@
 package quangtester.pages;
 
 import keywords.DriverManager;
-import keywords.WebActionUI;
-import net.bytebuddy.asm.Advice;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import quangtester.helpers.PropertiesHelper;
+import helpers.PropertiesHelper;
 
 import static keywords.WebActionUI.*;
 
@@ -54,6 +51,7 @@ public class LoginPage {
             enterEmail(email);
             enterPassword(password);
             clickButtonLogin();
+            Assert.assertTrue(!verifyElementPresent(errorToastMessage, 5), "Login không thành công");
             return new DashboardPage();
     }
 
