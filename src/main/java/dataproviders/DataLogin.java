@@ -5,9 +5,9 @@ import helpers.Helpers;
 import org.testng.annotations.DataProvider;
 
 public class DataLogin {
-    @DataProvider(name = "dataLoginVieon", parallel = true)
+    @DataProvider(name = "dataLoginVieon", parallel = false)
     public Object[][] dataLoginVieon() {
-        return new Object[][]{{"VieonDpoint","Dpoint@2021"}, {"VieonDpoint","Dpoint@2021"}};
+        return new Object[][]{{"VieonDpoint123","Dpoint@2021"}, {"VieonDpoint","Dpoint@2021"}};
     }
 
     @DataProvider(name = "data_provider_login_excel")

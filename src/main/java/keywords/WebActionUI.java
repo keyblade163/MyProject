@@ -1,11 +1,13 @@
 package keywords;
 
+import helpers.PropertiesHelper;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import utility.LogUltils;
 
 import javax.print.DocFlavor;
 import java.sql.Driver;
@@ -24,16 +26,29 @@ public class WebActionUI {
     }
 
     public static void setText(By by, String value) {
+//        waitForElementVisible(by);
+        getWebElement(by).click();
+        Actions action = new Actions(DriverManager.getDriver());
+        action.sendKeys(value).build().perform();
+//        getWebElement(by).sendKeys(value);
+        LogUltils.info("Set text " + value + " on element " + by);
+    }
+
+    public static void clickOnElement(By by) {
+        scrollToElementWithJS(by);
         waitForElementVisible(by);
         getWebElement(by).click();
-        getWebElement(by).sendKeys(value);
-        logConsole("Set text " + value + " on element " + by);
+        LogUltils.info("Clicked on element " + by);
     }
 
     public static void clearText(By by) {
         waitForPageLoaded();
         getWebElement(by).clear();
-        logConsole("Clear text on Element" + by);
+        LogUltils.info("Clear text on Element" + by);
+    }
+
+    public static void openURL(String value) {
+        DriverManager.getDriver().get(PropertiesHelper.getValue(value));
     }
 
     public static void logConsole(String message) {
@@ -42,8 +57,8 @@ public class WebActionUI {
 
     public static String getTextElement(By by) {
         waitForElementVisible(by);
-        logConsole("Get Text of Element " + by);
-        logConsole("=>>Text " + getWebElement(by).getText());
+        LogUltils.info("Get Text of Element " + by);
+        LogUltils.info("=>>Text " + getWebElement(by).getText());
         return getWebElement(by).getText();
     }
 
@@ -56,16 +71,19 @@ public class WebActionUI {
             return false;
         }
     }
+
     public static void scrollToElementWithJS(By by) {
         //Dùng JavascriptExecutor
         JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
         js.executeScript("arguments[0].scrollIntoView(false);", getWebElement(by));
-        logConsole("Scroll to element " + by);
+        LogUltils.info("Scroll to element " + by);
     }
+
     public static void waitForElementPresent(By by, int second) {
         WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(second));
         wait.until(ExpectedConditions.presenceOfElementLocated(by));
     }
+
 
     public static void clearTextCtrlA(By by) {
         waitForPageLoaded();
@@ -73,7 +91,7 @@ public class WebActionUI {
         actions.moveToElement(getWebElement(by)).build().perform();
         actions.click(getWebElement(by)).keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).build().perform();
         actions.sendKeys(Keys.DELETE).build().perform();
-        logConsole("Clear text on element " + by);
+        LogUltils.info("Clear text on element " + by);
     }
 
     public static void waitForPageLoaded() {
@@ -93,7 +111,7 @@ public class WebActionUI {
 
         //Wait Javascript until it is Ready!
         if (!jsReady) {
-            System.out.println("Javascript is NOT Ready.");
+            LogUltils.info("Javascript is NOT Ready.");
             //Wait for Javascript to load
             try {
                 wait.until(jsLoad);

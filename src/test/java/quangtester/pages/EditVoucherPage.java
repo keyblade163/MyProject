@@ -5,6 +5,7 @@ import static keywords.WebActionUI.*;
 import keywords.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 
 public class EditVoucherPage {
@@ -19,21 +20,34 @@ public class EditVoucherPage {
     By voucherValidity = By.name("voucherValidity");
     By switchActivityButton = By.xpath("//div[@class ='react-switch-bg']");
     By fromDate = By.xpath("//input[@placeholder='Từ ngày']");
+    By chooseDateFrom = By.xpath("//div[@aria-label='Choose Tuesday, June 6th, 2023']");
     By toDate = By.xpath("//input[@placeholder='Đến ngày']");
+    By chooseDateTo = By.xpath("//div[@aria-label='Choose Friday, June 30th, 2023']");
     By userManual = By.xpath("//html[@dir='ltr']");
     By saveVoucher = By.xpath("//button[normalize-space()='Lưu']");
+    By alertMessage = By.xpath("//div[@role='alert']");
 
     public void clickEditGiftButton() {
-        getWebElement(editVoucherButton).click();
+       clickOnElement(editVoucherButton);
     }
-    public void iFrameUserManual(){
-        DriverManager.getDriver().switchTo().frame(0);
+
+    public void iFrameUserManual() {
+        DriverManager.getDriver().switchTo().frame(1);
         scrollToElementWithJS(userManual);
         waitForElementPresent(userManual, 3);
         clearTextCtrlA(userManual);
-        setText(userManual,"Hướng dẫn automation");
+        setText(userManual, "Hướng dẫn automation");
         DriverManager.getDriver().switchTo().parentFrame();
+    }
 
+    public void dateTimeHandle() {
+        clickOnElement(fromDate);
+        clickOnElement(chooseDateFrom);
+        clickOnElement(toDate);
+        clickOnElement(chooseDateTo);
+    }
+    public void verifySaveSuccess(){
+        Assert.assertTrue(verifyElementPresent(alertMessage, 2),"Lưu không thành công");
     }
 
     public void editFirstVoucher() {
@@ -45,14 +59,16 @@ public class EditVoucherPage {
         clearTextCtrlA(voucherForm);
         clearTextCtrlA(voucherValidity);
         setText(voucherName, "Quà vieon number 3");
-        setText(voucherID,"Giảm 100%");
-        setText(pointsToRedeem,"10");
-        setText(totalVouchers,"100");
-        setText(voucherForm,"Dùng Điểm Đổi");
-        setText(voucherValidity,"500 Ngày");
-        getWebElement(switchActivityButton).click();
+        setText(voucherID, "Giảm 100%");
+        setText(pointsToRedeem, "10");
+        setText(totalVouchers, "100");
+        setText(voucherForm, "Dùng Điểm Đổi");
+        setText(voucherValidity, "500 Ngày");
+        clickOnElement(switchActivityButton);
         iFrameUserManual();
-        getWebElement(saveVoucher).click();
+        dateTimeHandle();
+        clickOnElement(saveVoucher);
+        verifySaveSuccess();
 
 
     }

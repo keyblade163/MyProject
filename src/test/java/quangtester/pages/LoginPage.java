@@ -56,11 +56,13 @@ public class LoginPage {
     }
 
     public void loginInvalid(String email, String password) {
-        DriverManager.getDriver().get(PropertiesHelper.getValue("url"));
+        openURL("url");
+       // DriverManager.getDriver().get(PropertiesHelper.getValue("url"));
         verifyHeaderPage();
         enterEmail(email);
         enterPassword(password);
         clickButtonLogin();
+        Assert.assertTrue(!verifyElementPresent(errorToastMessage, 5), "Login không thành công");
         verifyErrorToastMessage();
     }
 

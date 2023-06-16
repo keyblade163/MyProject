@@ -1,0 +1,556 @@
+[INFO] 16-06-2023 02:01:39 [main] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:24:41 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:25:32 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:25:34 [main] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:25:38 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:25:38 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:25:38 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:25:38 [main] LogUltils - Set text 1 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:25:41 [main] LogUltils - Get Text of Element By.xpath: //div[@role='alert']
+[INFO] 16-06-2023 02:25:41 [main] LogUltils - =>>Text Tài khoản hoặc mật khẩu không chính xác. Xin vui lòng thử lại
+[INFO] 16-06-2023 02:26:11 [TestNG-test=Login Test on browser-2] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:26:11 [TestNG-test=Login Test on browser-1] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:26:17 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:26:17 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:26:17 [TestNG-test=Login Test on browser-2] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:26:17 [TestNG-test=Login Test on browser-2] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:26:18 [TestNG-test=Login Test on browser-1] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:26:18 [TestNG-test=Login Test on browser-1] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:26:18 [TestNG-test=Login Test on browser-1] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:26:18 [TestNG-test=Login Test on browser-1] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:26:23 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 02:26:23 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 02:26:24 [TestNG-test=Login Test on browser-1] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:26:25 [TestNG-test=Login Test on browser-1] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:26:25 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 02:26:25 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 02:26:25 [TestNG-test=Login Test on browser-2] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:26:28 [TestNG-test=Login Test on browser-1] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:26:28 [TestNG-test=Login Test on browser-1] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:26:28 [TestNG-test=Login Test on browser-1] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:26:29 [TestNG-test=Login Test on browser-1] LogUltils - Set text 1 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:26:30 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:26:30 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:26:30 [TestNG-test=Login Test on browser-2] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:26:30 [TestNG-test=Login Test on browser-2] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:26:31 [TestNG-test=Login Test on browser-1] LogUltils - Get Text of Element By.xpath: //div[@role='alert']
+[INFO] 16-06-2023 02:26:31 [TestNG-test=Login Test on browser-1] LogUltils - =>>Text Tài khoản hoặc mật khẩu không chính xác. Xin vui lòng thử lại
+[INFO] 16-06-2023 02:26:31 [TestNG-test=Login Test on browser-1] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:26:36 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 02:26:36 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 02:26:37 [TestNG-test=Login Test on browser-1] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:26:37 [TestNG-test=Login Test on browser-1] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:26:37 [TestNG-test=Login Test on browser-1] LogUltils - Set text VieonDpoint123 on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:26:37 [TestNG-test=Login Test on browser-1] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:26:37 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 02:26:37 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 02:26:38 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 02:26:38 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 02:26:40 [TestNG-test=Login Test on browser-1] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:26:44 [TestNG-test=Login Test on browser-1] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:26:44 [TestNG-test=Login Test on browser-1] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:26:45 [TestNG-test=Login Test on browser-1] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:26:45 [TestNG-test=Login Test on browser-1] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:26:50 [TestNG-test=Login Test on browser-1] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:26:55 [TestNG-test=Login Test on browser-1] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:26:55 [TestNG-test=Login Test on browser-1] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:26:55 [TestNG-test=Login Test on browser-1] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:26:55 [TestNG-test=Login Test on browser-1] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:27:01 [TestNG-test=Login Test on browser-1] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:27:42 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:27:48 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:27:48 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:27:48 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:27:48 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:28:10 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:28:29 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:29:08 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:29:14 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:29:14 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:29:14 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:29:14 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:23 [TestNG-test=Login Test on browser 1-4] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:39:23 [TestNG-test=Login Test on browser-4] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:39:25 [TestNG-test=Login Test on browser 1-2] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:39:26 [TestNG-test=Login Test on browser-2] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:39:29 [TestNG-test=Login Test on browser 1-5] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:29 [TestNG-test=Login Test on browser 1-5] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:29 [TestNG-test=Login Test on browser-5] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:29 [TestNG-test=Login Test on browser 1-1] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:29 [TestNG-test=Login Test on browser-5] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:29 [TestNG-test=Login Test on browser 1-1] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-3] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-3] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-5] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-5] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-1] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-5] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-3] LogUltils - Set text VieonDpoint123 on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-5] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-1] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-4] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-2] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-4] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-2] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-3] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-4] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-4] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-2] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-4] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser 1-2] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-1] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:30 [TestNG-test=Login Test on browser-2] LogUltils - Set text 1 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-1] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-4] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser 1-4] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser 1-2] LogUltils - Set text 1 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-3] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-3] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-4] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-1] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-3] LogUltils - Set text VieonDpoint123 on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-1] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:31 [TestNG-test=Login Test on browser-3] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:32 [TestNG-test=Login Test on browser 1-3] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:39:33 [TestNG-test=Login Test on browser-2] LogUltils - Get Text of Element By.xpath: //div[@role='alert']
+[INFO] 16-06-2023 02:39:33 [TestNG-test=Login Test on browser-2] LogUltils - =>>Text Tài khoản hoặc mật khẩu không chính xác. Xin vui lòng thử lại
+[INFO] 16-06-2023 02:39:36 [TestNG-test=Login Test on browser 1-2] LogUltils - Get Text of Element By.xpath: //div[@role='alert']
+[INFO] 16-06-2023 02:39:36 [TestNG-test=Login Test on browser 1-2] LogUltils - =>>Text Tài khoản hoặc mật khẩu không chính xác. Xin vui lòng thử lại
+[INFO] 16-06-2023 02:39:36 [TestNG-test=Login Test on browser-3] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:39:37 [TestNG-test=Login Test on browser 1-3] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:37 [TestNG-test=Login Test on browser 1-3] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:37 [TestNG-test=Login Test on browser 1-3] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:37 [TestNG-test=Login Test on browser 1-3] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:39:42 [TestNG-test=Login Test on browser-3] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:39:42 [TestNG-test=Login Test on browser-3] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:39:42 [TestNG-test=Login Test on browser-3] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:39:42 [TestNG-test=Login Test on browser-3] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:48:51 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:48:52 [main] LogUltils - Chạy trước test case loginTestFailure
+[INFO] 16-06-2023 02:48:52 [main] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:48:56 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:48:56 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:48:56 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:48:56 [main] LogUltils - Set text 1 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:48:59 [main] LogUltils - Get Text of Element By.xpath: //div[@role='alert']
+[INFO] 16-06-2023 02:48:59 [main] LogUltils - =>>Text Tài khoản hoặc mật khẩu không chính xác. Xin vui lòng thử lại
+[INFO] 16-06-2023 02:48:59 [main] LogUltils - Đây là test case chạy thành công: loginTestFailure
+[INFO] 16-06-2023 02:49:36 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:49:37 [main] LogUltils - Chạy trước test case loginTestFailure
+[INFO] 16-06-2023 02:49:37 [main] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:49:41 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:49:42 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:49:42 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:49:42 [main] LogUltils - Set text 1 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 02:49:44 [main] LogUltils - Get Text of Element By.xpath: //div[@role='alert']
+[INFO] 16-06-2023 02:49:44 [main] LogUltils - =>>Text Tài khoản hoặc mật khẩu không chính xác. Xin vui lòng thử lại
+[INFO] 16-06-2023 02:49:44 [main] LogUltils - Đây là test case chạy thành công: loginTestFailure
+[INFO] 16-06-2023 02:50:55 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:50:57 [main] LogUltils - Chạy trước test case loginTestFailure
+[INFO] 16-06-2023 02:50:57 [main] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:51:00 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:51:00 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:51:01 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:51:01 [main] LogUltils - Set text 1 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[ERROR] 16-06-2023 02:51:03 [main] LogUltils - Đây là test case bị fail: loginTestFailure
+[INFO] 16-06-2023 02:53:03 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 02:53:05 [main] LogUltils - Chạy trước test case loginTestFailure
+[INFO] 16-06-2023 02:53:05 [main] LogUltils - Running test case logintestfailure
+[INFO] 16-06-2023 02:53:09 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 02:53:09 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 02:53:09 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 02:53:09 [main] LogUltils - Set text 1 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[ERROR] 16-06-2023 02:53:11 [main] LogUltils - Đây là test case bị fail: loginTestFailure
+[ERROR] 16-06-2023 02:53:11 [main] LogUltils - java.lang.AssertionError: Login không thành công expected [true] but found [false]
+[INFO] 16-06-2023 15:55:18 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 15:55:21 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 15:55:23 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 15:55:23 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 15:55:24 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 15:55:24 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 15:55:30 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 15:55:30 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 15:55:33 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 15:55:33 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 15:55:34 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 15:55:34 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 15:55:39 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 15:55:39 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 15:55:40 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 15:55:40 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 15:55:40 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 15:55:41 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 15:55:41 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 15:55:41 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 15:55:41 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 15:55:41 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 15:55:42 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 15:55:42 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 15:55:42 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 15:55:42 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 15:55:42 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 15:55:42 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 15:56:02 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 15:56:03 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 15:56:05 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 15:56:05 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 15:56:05 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 15:56:06 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 15:56:11 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 15:56:11 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 15:56:14 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 15:56:14 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 15:56:14 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 15:56:14 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 15:56:20 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 15:56:20 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 15:56:20 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 15:56:21 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 15:56:21 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 15:56:21 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 15:56:22 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 15:56:22 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 15:56:22 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 15:56:22 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 15:56:22 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 15:56:22 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 15:56:22 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 15:56:23 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 15:56:23 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 15:56:23 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 16:39:25 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 16:39:27 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 16:39:29 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 16:39:29 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 16:39:29 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 16:39:29 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 16:39:35 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 16:39:35 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 16:39:39 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 16:39:39 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 16:39:39 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 16:39:39 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 16:39:45 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 16:39:45 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 16:39:46 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 16:39:46 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 16:39:46 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 16:39:47 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 16:39:47 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 16:39:47 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 16:39:47 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 16:39:47 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 16:39:47 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 16:39:48 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 16:39:48 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:39:48 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:39:48 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:39:49 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 16:40:31 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 16:40:33 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 16:40:34 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 16:40:34 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 16:40:35 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 16:40:35 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 16:40:40 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 16:40:40 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 16:40:44 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 16:40:44 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 16:40:44 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 16:40:44 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 16:40:50 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 16:40:50 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 16:40:51 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 16:40:51 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 16:40:51 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 16:40:52 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 16:40:52 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 16:40:52 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 16:40:52 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 16:40:52 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 16:40:52 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 16:40:52 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 16:40:52 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:40:53 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:40:53 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:40:53 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 16:42:03 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 16:42:04 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 16:42:06 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 16:42:06 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 16:42:07 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 16:42:07 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 16:42:13 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 16:42:13 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 16:42:16 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 16:42:16 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 16:42:16 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 16:42:16 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 16:42:21 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 16:42:22 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 16:42:22 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 16:42:22 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 16:42:23 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 16:42:23 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 16:42:23 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 16:42:23 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 16:42:23 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 16:42:24 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 16:42:24 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 16:42:24 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 16:42:24 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:42:24 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:42:25 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:42:25 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 16:47:43 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 16:47:44 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 16:47:46 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 16:47:46 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 16:47:46 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 16:47:47 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 16:47:52 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 16:47:52 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 16:47:56 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 16:47:56 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 16:47:56 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 16:47:56 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 16:47:57 [main] LogUltils - Scroll to element By.xpath: //div[@id='row-13']//child::i[@class='fa fa-pencil']
+[INFO] 16-06-2023 16:48:01 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 16:48:02 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 16:48:02 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 16:48:02 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 16:48:03 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 16:48:03 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 16:48:03 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 16:48:03 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 16:48:03 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 16:48:04 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 16:48:04 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 16:48:04 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 16:48:04 [main] LogUltils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 16-06-2023 16:48:04 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:48:04 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:48:05 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 16:48:05 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 16-06-2023 16:48:05 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 16-06-2023 16:48:05 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 16-06-2023 16:48:05 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 16-06-2023 16:48:05 [main] LogUltils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 16-06-2023 16:48:05 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 17:07:24 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 17:07:26 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 17:07:28 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 17:07:28 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 17:07:28 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 17:07:28 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 17:07:34 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 17:07:34 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 17:07:37 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 17:07:37 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 17:07:38 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 17:07:38 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 17:07:39 [main] LogUltils - Scroll to element By.xpath: //div[@id='row-13']//child::i[@class='fa fa-pencil']
+[INFO] 16-06-2023 17:07:43 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 17:07:43 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 17:07:44 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:07:44 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 17:07:44 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 17:07:45 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 17:07:45 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 17:07:45 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 17:07:45 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:07:45 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 17:07:46 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 17:07:46 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 17:07:46 [main] LogUltils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 16-06-2023 17:07:46 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:07:46 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:07:46 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:07:46 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 16-06-2023 17:07:47 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 16-06-2023 17:07:47 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 16-06-2023 17:07:47 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 16-06-2023 17:07:47 [main] LogUltils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[ERROR] 16-06-2023 17:07:49 [main] LogUltils - Đây là test case bị fail: testEditVoucher
+[ERROR] 16-06-2023 17:07:49 [main] LogUltils - java.lang.AssertionError: Lưu không thành công expected [true] but found [false]
+[INFO] 16-06-2023 17:24:17 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 17:24:18 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 17:24:20 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 17:24:20 [main] LogUltils - =>>Text Đăng nhập
+[ERROR] 16-06-2023 17:24:20 [main] LogUltils - Đây là test case bị fail: testEditVoucher
+[ERROR] 16-06-2023 17:24:20 [main] LogUltils - java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.By$ByXPath
+[INFO] 16-06-2023 17:28:44 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 17:28:46 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 17:28:49 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 17:28:49 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 17:28:49 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 17:28:49 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[ERROR] 16-06-2023 17:29:04 [main] LogUltils - Đây là test case bị fail: testEditVoucher
+[ERROR] 16-06-2023 17:29:05 [main] LogUltils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //li[normalize-space()='Trang chủ'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52525/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e9e77262314e3c25a9d84658ed2e2284
+[INFO] 16-06-2023 17:32:58 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 17:32:59 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 17:33:01 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 17:33:01 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 17:33:02 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 17:33:02 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[ERROR] 16-06-2023 17:33:17 [main] LogUltils - Đây là test case bị fail: testEditVoucher
+[ERROR] 16-06-2023 17:33:18 [main] LogUltils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //li[normalize-space()='Trang chủ'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52614}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52614/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a528edb3521ca8502d5e1eb675c906d0
+[INFO] 16-06-2023 17:33:54 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 17:33:56 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 17:33:58 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 17:33:58 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 17:33:58 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 17:33:58 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 17:34:03 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 17:34:03 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 17:34:07 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 17:34:07 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 17:34:07 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 17:34:07 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 17:34:09 [main] LogUltils - Scroll to element By.xpath: //div[@id='row-13']//child::i[@class='fa fa-pencil']
+[INFO] 16-06-2023 17:34:12 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 17:34:13 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 17:34:13 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:34:13 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 17:34:14 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 17:34:14 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 17:34:14 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 17:34:14 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 17:34:14 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:34:14 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 17:34:14 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 17:34:15 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 17:34:15 [main] LogUltils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 16-06-2023 17:34:15 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:34:15 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:34:15 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:34:15 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 16-06-2023 17:34:15 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 16-06-2023 17:34:16 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 16-06-2023 17:34:16 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 16-06-2023 17:34:16 [main] LogUltils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 16-06-2023 17:34:18 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 17:37:49 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 17:37:50 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 17:37:52 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 17:37:52 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 17:37:53 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 17:37:53 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 17:37:59 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 17:37:59 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 17:38:02 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 17:38:02 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 17:38:02 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 17:38:02 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 17:38:04 [main] LogUltils - Scroll to element By.xpath: //div[@id='row-13']//child::i[@class='fa fa-pencil']
+[INFO] 16-06-2023 17:38:08 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 17:38:08 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 17:38:08 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:38:09 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 17:38:09 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 17:38:09 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 17:38:09 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 17:38:09 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 17:38:10 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:38:10 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 17:38:10 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 17:38:10 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 17:38:10 [main] LogUltils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 16-06-2023 17:38:10 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:38:10 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:38:11 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:38:11 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 16-06-2023 17:38:11 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 16-06-2023 17:38:11 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 16-06-2023 17:38:11 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 16-06-2023 17:38:11 [main] LogUltils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 16-06-2023 17:38:13 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 17:39:00 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 17:39:02 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 17:39:04 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 17:39:04 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 17:39:04 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 17:39:04 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 17:39:10 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 17:39:10 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 17:39:13 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 17:39:13 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 17:39:13 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 17:39:14 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 17:39:15 [main] LogUltils - Scroll to element By.xpath: //div[@id='row-13']//child::i[@class='fa fa-pencil']
+[INFO] 16-06-2023 17:39:19 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 17:39:19 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 17:39:20 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:39:20 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 17:39:20 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 16-06-2023 17:39:21 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:39:22 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:39:22 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:39:22 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 16-06-2023 17:39:22 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 16-06-2023 17:39:22 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 16-06-2023 17:39:22 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 16-06-2023 17:39:23 [main] LogUltils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 16-06-2023 17:39:24 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 16-06-2023 17:44:48 [main] LogUltils - Launching Chrome Browser...
+[INFO] 16-06-2023 17:44:49 [main] LogUltils - Đang chạy testcase testEditVoucher
+[INFO] 16-06-2023 17:44:52 [main] LogUltils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 16-06-2023 17:44:52 [main] LogUltils - =>>Text Đăng nhập
+[INFO] 16-06-2023 17:44:52 [main] LogUltils - Set text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 16-06-2023 17:44:52 [main] LogUltils - Set text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 16-06-2023 17:44:58 [main] LogUltils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 16-06-2023 17:44:58 [main] LogUltils - =>>Text Trang chủ
+[INFO] 16-06-2023 17:45:01 [main] LogUltils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 16-06-2023 17:45:01 [main] LogUltils - =>>Text Chương trình loyalty
+[INFO] 16-06-2023 17:45:01 [main] LogUltils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 16-06-2023 17:45:02 [main] LogUltils - =>>Text Hạng thành viên
+[INFO] 16-06-2023 17:45:04 [main] LogUltils - Scroll to element By.xpath: //div[@id='row-13']//child::i[@class='fa fa-pencil']
+[INFO] 16-06-2023 17:45:04 [main] LogUltils - Clicked on element By.xpath: //div[@id='row-13']//child::i[@class='fa fa-pencil']
+[INFO] 16-06-2023 17:45:07 [main] LogUltils - Clear text on element By.name: voucherName
+[INFO] 16-06-2023 17:45:08 [main] LogUltils - Clear text on element By.name: voucherRefId
+[INFO] 16-06-2023 17:45:08 [main] LogUltils - Clear text on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:45:08 [main] LogUltils - Clear text on element By.name: totalVouchers
+[INFO] 16-06-2023 17:45:09 [main] LogUltils - Clear text on element By.name: voucherForm
+[INFO] 16-06-2023 17:45:09 [main] LogUltils - Clear text on element By.name: voucherValidity
+[INFO] 16-06-2023 17:45:09 [main] LogUltils - Set text Quà vieon number 3 on element By.name: voucherName
+[INFO] 16-06-2023 17:45:09 [main] LogUltils - Set text Giảm 100% on element By.name: voucherRefId
+[INFO] 16-06-2023 17:45:09 [main] LogUltils - Set text 10 on element By.name: pointsToRedeem
+[INFO] 16-06-2023 17:45:09 [main] LogUltils - Set text 100 on element By.name: totalVouchers
+[INFO] 16-06-2023 17:45:09 [main] LogUltils - Set text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Set text 500 Ngày on element By.name: voucherValidity
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Clicked on element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Set text Hướng dẫn automation on element By.xpath: //html[@dir='ltr']
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Clicked on element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 16-06-2023 17:45:10 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 16-06-2023 17:45:11 [main] LogUltils - Clicked on element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 16-06-2023 17:45:11 [main] LogUltils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 16-06-2023 17:45:11 [main] LogUltils - Clicked on element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 16-06-2023 17:45:11 [main] LogUltils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 16-06-2023 17:45:11 [main] LogUltils - Clicked on element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 16-06-2023 17:45:11 [main] LogUltils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 16-06-2023 17:45:11 [main] LogUltils - Clicked on element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 16-06-2023 17:45:12 [main] LogUltils - Đây là test case chạy thành công: testEditVoucher

@@ -2,40 +2,51 @@ package quangtester.testcase;
 
 import dataproviders.DataLogin;
 import helpers.ExcelHelper;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import quangtester.common.BaseSetup;
+import quangtester.helpers.PropertiesHelper;
+import quangtester.listener.TestListener;
 import quangtester.pages.LoginPage;
+import utility.LogUltils;
 
 public class LoginTest extends BaseSetup {
     LoginPage loginPage;
-    @Test(dataProvider = "dataLoginVieon", dataProviderClass = DataLogin.class)
-    public void loginTestSuccess(String Username, String Password) {
-        loginPage   = new LoginPage();
-       // loginPage.login(PropertiesHelper.getValue("email"),PropertiesHelper.getValue("password"));
-        loginPage.login(Username, Password);
-    }
 
     @Test
-    public void loginTestExcel(){
+    public void loginTestSuccessExcel() {
         loginPage = new LoginPage();
         ExcelHelper excelHelper = new ExcelHelper();
         excelHelper.setExcelFile("src/test/resources/datatest/Login.xlsx","Sheet1");
-        loginPage.login(excelHelper.getCellData("EMAIL",1),"Dpoint@2021");
+        loginPage.login(excelHelper.getCellData("EMAIL", 1),excelHelper.getCellData("PASSWORD",1));
+
+    }
+
+    @Test(dataProvider = "dataLoginVieon", dataProviderClass = DataLogin.class)
+    public void loginTestSuccess1(String Username, String Password) {
+        loginPage = new LoginPage();
+        loginPage.login(Username, Password);
+    }
+
+    @Test
+    public void loginTestExcel() {
+        loginPage = new LoginPage();
+        ExcelHelper excelHelper = new ExcelHelper();
+        excelHelper.setExcelFile("src/test/resources/datatest/Login.xlsx", "Sheet1");
+        loginPage.login(excelHelper.getCellData("EMAIL", 1), "Dpoint@2021");
     }
 
     @Test(dataProvider = "data_provider_login_excel", dataProviderClass = DataLogin.class)
-    public void loginTestSuccess3(String Username, String Password) {
-        loginPage   = new LoginPage();
-        // loginPage.login(PropertiesHelper.getValue("email"),PropertiesHelper.getValue("password"));
+    public void loginTestSuccess2(String Username, String Password) {
+        loginPage = new LoginPage();
         loginPage.login(Username, Password);
-
     }
 
 
     @Test
-    public void loginTestFailure(){
+    public void loginTestFailure() {
         loginPage = new LoginPage();
-        loginPage.loginInvalid("VieonDpoint","1");
+        loginPage.loginInvalid("VieonDpoint", "1");
     }
 
 }
