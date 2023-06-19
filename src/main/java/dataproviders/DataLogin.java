@@ -5,12 +5,12 @@ import helpers.Helpers;
 import org.testng.annotations.DataProvider;
 
 public class DataLogin {
-    @DataProvider(name = "dataLoginVieon", parallel = false)
+    @DataProvider(name = "dataLoginVieon", parallel = true)
     public Object[][] dataLoginVieon() {
         return new Object[][]{{"VieonDpoint123","Dpoint@2021"}, {"VieonDpoint","Dpoint@2021"}};
     }
 
-    @DataProvider(name = "data_provider_login_excel")
+    @DataProvider(name = "data_provider_login_excel", parallel = false)
     public Object[][] dataLoginHRMFromExcel() {
         ExcelHelper excelHelpers = new ExcelHelper();
         Object[][] data = excelHelpers.getExcelData(Helpers.getCurrentDir() + "src/test/resources/datatest/Login.xlsx", "Sheet1");

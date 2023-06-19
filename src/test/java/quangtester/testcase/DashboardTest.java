@@ -1,5 +1,7 @@
 package quangtester.testcase;
 
+import dataproviders.DataLogin;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import quangtester.common.BaseSetup;
 import quangtester.pages.DashboardPage;
@@ -9,18 +11,18 @@ public class DashboardTest extends BaseSetup {
     DashboardPage dashboardPage;
     LoginPage loginPage;
 
-    @Test
-    public void openSideBarMenu(){
+    @Test(dataProvider = "data_provider_login_excel", dataProviderClass = DataLogin.class)
+    public void openSideBarMenu(String value1, String value2){
         loginPage = new LoginPage();
-        dashboardPage = loginPage.login("VieonDpoint","Dpoint@2021");
+        dashboardPage = loginPage.login(value1, value2);
         dashboardPage.verifyDashboardPage();
     }
 
-    @Test
-    public void openVieonTier(){
+    @Test(dataProvider = "dataLoginVieon", dataProviderClass = DataLogin.class)
+    public void openVieonTier(String Username, String Password){
         loginPage = new LoginPage();
-        dashboardPage = loginPage.login("VieonDpoint","Dpoint@2021");
-        dashboardPage.openVieonTier();
+        dashboardPage = loginPage.login(Username,Password);
+        dashboardPage.openVieonTierMenu();
     }
 
 }

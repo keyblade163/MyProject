@@ -20,7 +20,6 @@ public class LoginPage {
     By errorToastMessage = By.xpath("//div[@role='alert']");
 
 
-
     //Tạo hàm xử lý
     public void verifyHeaderPage() {
         Assert.assertEquals(getTextElement(headerPage), "Đăng nhập");
@@ -31,7 +30,7 @@ public class LoginPage {
     }
 
     public void enterPassword(String password) {
-       setText(inputPassword, password);
+        setText(inputPassword, password);
     }
 
     public void clickButtonLogin() {
@@ -42,27 +41,26 @@ public class LoginPage {
     public void verifyErrorToastMessage() {
         waitForElementVisible(errorToastMessage);
         Assert.assertTrue(getWebElement(errorToastMessage).isDisplayed());
-        Assert.assertEquals(getTextElement(errorToastMessage),"Tài khoản hoặc mật khẩu không chính xác. Xin vui lòng thử lại");
+        Assert.assertEquals(getTextElement(errorToastMessage), "Tài khoản hoặc mật khẩu không chính xác. Xin vui lòng thử lại");
     }
 
     public DashboardPage login(String email, String password) {
-            DriverManager.getDriver().get(PropertiesHelper.getValue("url"));
-            verifyHeaderPage();
-            enterEmail(email);
-            enterPassword(password);
-            clickButtonLogin();
-            Assert.assertTrue(!verifyElementPresent(errorToastMessage, 5), "Login không thành công");
-            return new DashboardPage();
-    }
-
-    public void loginInvalid(String email, String password) {
-        openURL("url");
-       // DriverManager.getDriver().get(PropertiesHelper.getValue("url"));
+        openURL(PropertiesHelper.getValue("url"));
         verifyHeaderPage();
         enterEmail(email);
         enterPassword(password);
         clickButtonLogin();
         Assert.assertTrue(!verifyElementPresent(errorToastMessage, 5), "Login không thành công");
+        return new DashboardPage();
+    }
+
+    public void loginInvalid(String email, String password) {
+        openURL(PropertiesHelper.getValue("url"));
+        verifyHeaderPage();
+        enterEmail(email);
+        enterPassword(password);
+        clickButtonLogin();
+        //Assert.assertTrue(!verifyElementPresent(errorToastMessage, 5), "Login không thành công");
         verifyErrorToastMessage();
     }
 

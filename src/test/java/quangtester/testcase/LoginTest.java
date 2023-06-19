@@ -2,13 +2,9 @@ package quangtester.testcase;
 
 import dataproviders.DataLogin;
 import helpers.ExcelHelper;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import quangtester.common.BaseSetup;
-import quangtester.helpers.PropertiesHelper;
-import quangtester.listener.TestListener;
 import quangtester.pages.LoginPage;
-import utility.LogUltils;
 
 public class LoginTest extends BaseSetup {
     LoginPage loginPage;
@@ -23,7 +19,7 @@ public class LoginTest extends BaseSetup {
     }
 
     @Test(dataProvider = "dataLoginVieon", dataProviderClass = DataLogin.class)
-    public void loginTestSuccess1(String Username, String Password) {
+    public void loginTestDataProvider(String Username, String Password) {
         loginPage = new LoginPage();
         loginPage.login(Username, Password);
     }
@@ -37,7 +33,7 @@ public class LoginTest extends BaseSetup {
     }
 
     @Test(dataProvider = "data_provider_login_excel", dataProviderClass = DataLogin.class)
-    public void loginTestSuccess2(String Username, String Password) {
+    public void loginTestDataProviderExcel(String Username, String Password) {
         loginPage = new LoginPage();
         loginPage.login(Username, Password);
     }

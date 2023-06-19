@@ -1,9 +1,8 @@
 package quangtester.pages;
 
-import keywords.WebActionUI;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import quangtester.pages.voucher.EditVoucherPage;
 
 import static keywords.WebActionUI.*;
 
@@ -61,7 +60,7 @@ public class DashboardPage {
     }
 
 
-    public void openVieonTier() {
+    public void openVieonTierMenu() {
         waitForPageLoaded();
         verifyBreadCrumb();
         verifySideBarTitle();
@@ -70,7 +69,7 @@ public class DashboardPage {
         clickVieonTier();
     }
 
-    public void openVieonActivity() {
+    public void openVieonActivityMenu() {
         waitForPageLoaded();
         verifyBreadCrumb();
         verifySideBarTitle();
@@ -79,7 +78,7 @@ public class DashboardPage {
         clickVieonActivity();
     }
 
-    public void openVieonEarningRule() {
+    public void openVieonEarningRuleMenu() {
         waitForPageLoaded();
         verifyBreadCrumb();
         verifySideBarTitle();
@@ -88,7 +87,7 @@ public class DashboardPage {
         clickVieonEarningRule();
     }
 
-    public void openVieonExpiredPoints() {
+    public void openVieonExpiredPointsMenu() {
         waitForPageLoaded();
         verifyBreadCrumb();
         verifySideBarTitle();
@@ -97,7 +96,7 @@ public class DashboardPage {
         clickVieonExpiredPoint();
     }
 
-    public EditVoucherPage openVieonVoucher() {
+    public EditVoucherPage openVieonVoucherMenu() {
         waitForPageLoaded();
         verifyBreadCrumb();
         verifySideBarTitle();

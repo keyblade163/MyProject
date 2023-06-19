@@ -1,0 +1,12 @@
+quangtester\pages\DashboardPage.class
+quangtester\pages\EditVoucherPage.class
+quangtester\testcase\DashboardTest.class
+quangtester\testcase\LoginTest.class
+quangtester\common\BaseSetup.class
+quangtester\helpers\Helpers.class
+quangtester\testcase\EditVoucherTest.class
+quangtester\pages\CreateNewTier.class
+quangtester\helpers\PropertiesHelper.class
+quangtester\listener\TestListener.class
+quangtester\helpers\ExcelHelper.class
+quangtester\pages\LoginPage.class

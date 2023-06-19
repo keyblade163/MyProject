@@ -83,6 +83,7 @@ public class ExcelHelper {
         return getCellData(rownum, columns.get(columnName));
     }
 
+    //Đọc Excel tất cả các dòng trong một Sheet
     public Object[][] getExcelData(String fileName, String sheetName) {
         Object[][] data = null;
         Workbook workbook = null;

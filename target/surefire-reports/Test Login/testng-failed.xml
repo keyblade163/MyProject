@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Test Login]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="methods" name="Login Test on browser(failed)" verbose="0">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="quangtester.testcase.LoginTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="createDriver"/>
+          <include name="loginTestDataProvider" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- quangtester.testcase.LoginTest -->
+    </classes>
+  </test> <!-- Login Test on browser(failed) -->
+</suite> <!-- Failed suite [Test Login] -->

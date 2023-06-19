@@ -1,16 +1,14 @@
 package quangtester.common;
 
-import helpers.CaptureHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import keywords.DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.ITestResult;
 import org.testng.annotations.*;
 import helpers.PropertiesHelper;
 import quangtester.listener.TestListener;
-import utility.LogUltils;
+import utility.LogUtils;
 @Listeners(TestListener.class)
 public class BaseSetup {
     public static WebDriver driver;
@@ -39,7 +37,7 @@ public class BaseSetup {
     }
 
     private static WebDriver initChromeDriver() {
-        LogUltils.info("Launching Chrome Browser...");
+        LogUtils.info("Launching Chrome Browser...");
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
@@ -49,7 +47,7 @@ public class BaseSetup {
     }
 
     private static WebDriver initEdgeDriver() {
-        LogUltils.info("Launching Edge Browser...");
+        LogUtils.info("Launching Edge Browser...");
         WebDriverManager.edgedriver().setup();
         WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
