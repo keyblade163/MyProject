@@ -3,6 +3,7 @@ package quangtester.pages;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import quangtester.pages.voucher.EditVoucherPage;
+import quangtester.pages.voucher.VoucherListViewPage;
 
 import static keywords.WebActionUI.*;
 
@@ -96,14 +97,14 @@ public class DashboardPage {
         clickVieonExpiredPoint();
     }
 
-    public EditVoucherPage openVieonVoucherMenu() {
+    public VoucherListViewPage openVieonVoucherMenu() {
         waitForPageLoaded();
         verifyBreadCrumb();
         verifySideBarTitle();
         clickSidebarElement();
         checkSidebarItem();
         clickVieonVoucher();
-        return new EditVoucherPage();
+        return new VoucherListViewPage();
     }
 
 }

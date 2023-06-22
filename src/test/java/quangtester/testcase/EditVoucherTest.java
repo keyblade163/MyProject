@@ -17,11 +17,20 @@ public class EditVoucherTest extends BaseSetup {
     public void testEditVoucher() {
         loginPage = new LoginPage();
         dashboardPage = loginPage.login("VieonDpoint", "Dpoint@2021");
-        editVoucherPage = dashboardPage.openVieonVoucherMenu();
-        editVoucherPage.searchEditGift("Quà vieon number 3");
-        editVoucherPage.clickEditGiftButton();
-        voucherListViewPage = editVoucherPage.editFirstVoucher();
-        voucherListViewPage.checkSearchTableByColumn(2,"voucher");
+        voucherListViewPage = dashboardPage.openVieonVoucherMenu();
+        editVoucherPage = voucherListViewPage.searchEditGift();
+        editVoucherPage.clickEditVoucherButton();
+        editVoucherPage.editSearchVoucher();
+        voucherListViewPage.checkSearchTableByColumn(1, "Quà vieon number 3");
+    }
+@Test
+    public void checkNumberOfVoucher() {
+        loginPage = new LoginPage();
+        dashboardPage = loginPage.login("VieonDpoint", "Dpoint@2021");
+        voucherListViewPage = dashboardPage.openVieonVoucherMenu();
+        voucherListViewPage.checkSearchTableByColumn(2,"Mã giảm giá 30.000");
+
+
     }
 }
 

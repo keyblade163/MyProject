@@ -20,13 +20,13 @@ public class EditVoucherPage {
     //String voucherURL = "https://doanhnghiep-development.dpoint.vn/vieon-gift";
 
     By searchGift = By.xpath("//input[@placeholder='Nhập nội dung tìm kiếm']");
-    By editVoucherButton = By.xpath("//div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/child::div[1]//a[2]");
+    By editVoucherButton = By.xpath("//div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]");
     By voucherName = By.name("voucherName");
     By voucherID = By.name("voucherRefId");
     By pointsToRedeem = By.name("pointsToRedeem");
     By totalVouchers = By.name("totalVouchers");
     By voucherForm = By.name("voucherForm");
-    By voucherValidity = By.name("voucherValidity");
+    By voucherValidity = By.name("//div[@class=' css-yk16xz-control']//div[text()='Số ngày']");
     By switchActivityButton = By.xpath("//div[@class ='react-switch-bg']");
     By fromDate = By.xpath("//input[@placeholder='Từ ngày']");
     By chooseDateFrom = By.xpath("//div[@aria-label='Choose Tuesday, June 6th, 2023']");
@@ -36,8 +36,9 @@ public class EditVoucherPage {
     By saveVoucher = By.xpath("//button[normalize-space()='Lưu']");
     By alertMessage = By.xpath("//div[@role='alert']");
     By uploadPhoto = By.xpath("//label[contains(text(),'Chọn ảnh')]");
-    By dropDownListCategory = By.xpath("//div[@class=' css-1hwfws3']");
+    By dropDownListCategory = By.xpath("//div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']");
     By getDropDownListSubCategory = By.xpath("//div[@class='dropdown-heading-value']");
+
 
 
     public void searchEditGift(String value) {
@@ -45,7 +46,7 @@ public class EditVoucherPage {
         PressKeyEnter();
     }
 
-    public void clickEditGiftButton() {
+    public void clickEditVoucherButton() {
         clickOnElement(editVoucherButton);
     }
     public void checkSwitchActivityButton(){
@@ -124,30 +125,37 @@ public class EditVoucherPage {
         sleep(2);
     }
 
-    public void handleDropDownList() {
-        setText(dropDownListCategory, "Ưu đãi các nhãn hàng");
+    public void handleCategoryDropDownList(String value) {
+        setText(dropDownListCategory, value);
         PressKeyEnter();
         clickOnElement(getDropDownListSubCategory);
         By checkAllSub_Category = By.xpath("//span[normalize-space()='Tất cả']");
         clickOnElement(checkAllSub_Category);
         clickOnElement(getDropDownListSubCategory);
     }
+    public void handleValidationDate(String value){
+        setText(voucherValidity, value);
+        PressKeyEnter();
+        By enterDate = By.xpath("//input[@name='daysToExpiry']");
+        clearText(enterDate);
+        setText(enterDate, "10");
+    }
 
-    public VoucherListViewPage editFirstVoucher() {
+    public VoucherListViewPage editSearchVoucher() {
         sleep(3);
         clearTextCtrlA(voucherName);
         clearTextCtrlA(voucherID);
         clearTextCtrlA(pointsToRedeem);
         clearTextCtrlA(totalVouchers);
         clearTextCtrlA(voucherForm);
-        clearTextCtrlA(voucherValidity);
-        handleDropDownList();
+//        Cái này bị fail ko handle được
+//        handleValidationDate("Số ngày");
+        handleCategoryDropDownList("Ưu đã từ các nhãn hàng khác");
         setText(voucherName, PropertiesHelper.getValue("voucher"));
         setText(voucherID, "Giảm 100%");
         setText(pointsToRedeem, "10");
         setText(totalVouchers, "100");
         setText(voucherForm, "Dùng Điểm Đổi");
-        setText(voucherValidity, "500 Ngày");
         checkSwitchActivityButton();
         iFrameUserManual0();
         iFrameUserManual1();

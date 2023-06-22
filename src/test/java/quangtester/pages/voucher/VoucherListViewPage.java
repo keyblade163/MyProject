@@ -8,19 +8,20 @@ import org.testng.Assert;
 
 import java.util.List;
 
-import static keywords.WebActionUI.PressKeyEnter;
-import static keywords.WebActionUI.getWebElement;
+import static keywords.WebActionUI.*;
 
 public class VoucherListViewPage {
     By searchGift = By.xpath("//input[@placeholder='Nhập nội dung tìm kiếm']");
 
-    public void searchEditGift() {
-        getWebElement(searchGift).sendKeys("voucher");
+    public EditVoucherPage searchEditGift() {
+        getWebElement(searchGift).sendKeys("Quà vieon number 3");
         PressKeyEnter();
+        return new EditVoucherPage();
     }
 
     public void checkSearchTableByColumn(int column, String value) {
         searchEditGift();
+        waitForPageLoaded();
         //Xác định số dòng của table sau khi search
         List<WebElement> row = DriverManager.getDriver().findElements(By.xpath("//div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/child::div"));
         int rowTotal = row.size(); //Lấy ra số dòng

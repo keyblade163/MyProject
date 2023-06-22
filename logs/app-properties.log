@@ -2558,3 +2558,917 @@ Session ID: 2223185ee784ed8422079fb0a990cc19
 [ERROR] 19-06-2023 16:16:18 [main] LogUtils - Đây là test case bị fail: testEditVoucher
 [ERROR] 19-06-2023 16:16:18 [main] LogUtils - java.lang.AssertionError: Lưu không thành công expected [true] but found [false]
 [INFO] 19-06-2023 16:16:19 [main] LogUtils - End testing MyProject
+[INFO] 20-06-2023 15:17:40 [main] LogUtils - Launching Chrome Browser...
+[INFO] 20-06-2023 15:17:45 [main] LogUtils - Đang chạy testcase loginTestSuccessExcel
+[INFO] 20-06-2023 15:17:48 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 20-06-2023 15:17:48 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 20-06-2023 15:17:49 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 20-06-2023 15:17:49 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 20-06-2023 15:17:49 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 20-06-2023 15:17:54 [main] LogUtils - Đây là test case chạy thành công: loginTestSuccessExcel
+[INFO] 20-06-2023 15:17:55 [main] LogUtils - End testing MyProject
+[INFO] 20-06-2023 15:18:12 [main] LogUtils - Launching Chrome Browser...
+[INFO] 20-06-2023 15:18:15 [main] LogUtils - Đang chạy testcase loginTestSuccessExcel
+[ERROR] 20-06-2023 15:18:16 [main] LogUtils - Đây là test case bị fail: loginTestSuccessExcel
+[ERROR] 20-06-2023 15:18:16 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "quangtester.pages.LoginPage.login(String, String)" because "this.loginPage" is null
+[INFO] 20-06-2023 15:18:18 [main] LogUtils - End testing MyProject
+[INFO] 20-06-2023 15:20:07 [main] LogUtils - Launching Chrome Browser...
+[INFO] 20-06-2023 15:20:09 [main] LogUtils - Đang chạy testcase loginTestSuccessExcel
+[ERROR] 20-06-2023 15:20:11 [main] LogUtils - Đây là test case bị fail: loginTestSuccessExcel
+[ERROR] 20-06-2023 15:20:11 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "quangtester.pages.LoginPage.login(String, String)" because "this.loginPage" is null
+[INFO] 20-06-2023 15:20:12 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 15:31:15 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 15:31:20 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 15:31:22 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 15:31:23 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 15:31:23 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 15:31:23 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 15:31:24 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 15:31:30 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 15:31:30 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 15:31:33 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 15:31:33 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 15:31:33 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 15:31:33 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 15:31:34 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 15:31:35 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/child::div[1]//a[2]
+[INFO] 22-06-2023 15:31:35 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/child::div[1]//a[2]
+[INFO] 22-06-2023 15:31:39 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 15:31:39 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 15:31:40 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 15:31:40 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 15:31:40 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 15:31:41 [main] LogUtils - Click And Set Text Ưu đãi các nhãn hàng on element By.xpath: //div[@class=' css-1hwfws3']
+[INFO] 22-06-2023 15:31:41 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 15:31:41 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 15:31:41 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[ERROR] 22-06-2023 15:31:51 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 15:31:51 [main] LogUtils - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Tất cả'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56735/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6b7fef978d0fc260e956e2e5c4461c
+[INFO] 22-06-2023 15:31:53 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 15:53:23 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 15:53:27 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 15:53:31 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 15:53:31 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 15:53:31 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 15:53:32 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 15:53:32 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 15:53:38 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 15:53:38 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 15:53:41 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 15:53:41 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 15:53:41 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 15:53:41 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 15:53:42 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 15:53:43 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 15:53:43 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 15:53:47 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 15:53:47 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 15:53:48 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 15:53:48 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 15:53:48 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-1hwfws3']
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 15:53:49 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 15:53:50 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 15:53:50 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[ERROR] 22-06-2023 15:53:50 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 15:53:50 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [411f3090161bf3a1552c480cd9ae041c, findElement {using=name, value=//div[text()='Chọn hình thức hết hạn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53140/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 411f3090161bf3a1552c480cd9ae041c
+[INFO] 22-06-2023 15:53:51 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:04:59 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:05:02 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:05:05 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:05:05 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:05:05 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:05:06 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:05:06 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:05:12 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:05:12 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:05:15 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:05:15 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:05:15 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:05:15 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:05:16 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:05:17 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:05:17 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:05:21 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:05:21 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:05:21 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:05:22 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:05:22 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-1hwfws3']
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:05:23 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 16:05:24 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 16:05:24 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:05:24 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 16:05:24 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[ERROR] 22-06-2023 16:05:24 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:05:24 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1405f95e027e7e641842e1487cd0afb7, findElement {using=name, value=//div[@class=' css-1hwfws3']/following::div[@class='css-1g6gooi']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53650/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1405f95e027e7e641842e1487cd0afb7
+[INFO] 22-06-2023 16:05:26 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:08:21 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:08:24 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:08:26 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:08:26 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:08:26 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:08:27 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:08:27 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:08:33 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:08:33 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:08:36 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:08:36 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:08:36 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:08:36 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:08:37 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:08:38 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:08:38 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:08:42 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:08:42 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:08:43 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:08:43 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:08:43 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:08:44 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-1hwfws3']
+[INFO] 22-06-2023 16:08:44 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:08:44 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:08:44 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:08:44 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:08:44 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:08:44 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:08:44 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:08:45 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 16:08:45 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 16:08:45 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:08:45 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 16:08:45 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[ERROR] 22-06-2023 16:08:45 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:08:45 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [abef1e1cb48c6646c6eaac5c3d7f68db, findElement {using=name, value=//div[@class=' css-1hwfws3']/following::div[@class='css-1g6gooi']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53835/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: abef1e1cb48c6646c6eaac5c3d7f68db
+[INFO] 22-06-2023 16:08:47 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:11:24 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:11:27 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:11:29 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:11:30 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:11:30 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:11:30 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:11:30 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:11:36 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:11:36 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:11:39 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:11:39 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:11:39 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:11:39 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:11:40 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:11:41 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:11:41 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:11:45 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:11:45 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:11:45 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:11:46 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:11:46 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:11:46 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-1hwfws3']
+[INFO] 22-06-2023 16:11:46 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:11:46 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:11:47 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:11:47 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:11:47 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:11:47 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:11:47 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:11:47 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 16:11:48 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 16:11:48 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:11:48 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 16:11:48 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[ERROR] 22-06-2023 16:11:48 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:11:48 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc392ea255d6a1fa3ec13569a59ec152, findElement {using=name, value=//div[@class=' css-1hwfws3']/following::div[@class=' css-1uccc91-singleValue']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55118/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc392ea255d6a1fa3ec13569a59ec152
+[INFO] 22-06-2023 16:11:50 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:18:33 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:18:37 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:18:38 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:18:39 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:18:39 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:18:39 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:18:39 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:18:45 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:18:45 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:18:48 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:18:48 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:18:49 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:18:49 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:18:50 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:18:51 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:18:51 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:18:54 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:18:55 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:18:55 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:18:55 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-1hwfws3']
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:18:56 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:18:57 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 16:18:57 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 16:18:57 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:18:57 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 16:18:57 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[ERROR] 22-06-2023 16:18:57 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:18:58 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86427853323e5b7797e3e8fdc63e3e5c, findElement {using=name, value=//div[@class=' css-1hwfws3']/following::div[@class=' css-1uccc91-singleValue']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55457/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86427853323e5b7797e3e8fdc63e3e5c
+[INFO] 22-06-2023 16:18:59 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:20:47 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:20:50 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:20:52 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:20:53 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:20:53 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:20:53 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:20:53 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:20:59 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:20:59 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:21:02 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:21:03 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:21:03 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:21:03 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:21:04 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:21:05 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:21:05 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:21:08 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:21:09 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:21:09 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:21:09 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:21:10 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:21:10 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-1hwfws3']
+[INFO] 22-06-2023 16:21:10 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:21:10 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:21:10 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:21:10 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:21:11 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:21:11 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:21:11 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:21:11 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 16:21:11 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 16:21:11 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:21:11 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 16:21:12 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[ERROR] 22-06-2023 16:21:12 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:21:12 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9eb7745a52565932d0e8f4147263920d, findElement {using=name, value=//div[text()='Số ngày']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50313/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eb7745a52565932d0e8f4147263920d
+[INFO] 22-06-2023 16:21:13 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:35:20 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:35:23 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:35:25 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:35:26 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:35:26 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:35:26 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:35:26 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:35:32 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:35:32 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:35:35 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:35:35 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:35:35 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:35:35 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:35:36 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:35:37 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:35:38 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:35:41 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:35:41 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:35:42 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:35:42 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:35:42 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:35:43 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 16:35:44 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 16:35:44 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:35:44 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 16:35:44 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[ERROR] 22-06-2023 16:35:44 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:35:44 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2cfeaf764af9610ab469a300af13c92, findElement {using=name, value=//div[text()='Số ngày']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64683/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2cfeaf764af9610ab469a300af13c92
+[INFO] 22-06-2023 16:35:45 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:38:12 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:38:14 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:38:16 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:38:17 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:38:17 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:38:17 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:38:17 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:38:23 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:38:23 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:38:26 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:38:26 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:38:26 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:38:26 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:38:27 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:38:28 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:38:28 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:38:32 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:38:32 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:38:32 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:38:33 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:38:33 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:38:33 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 16:38:34 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:38:34 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:38:34 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:38:34 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:38:34 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:38:34 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:38:34 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:38:34 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 16:38:35 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 16:38:35 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:38:35 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 16:38:35 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[ERROR] 22-06-2023 16:38:35 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:38:35 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76cd114cc2b4e9829ecb5f10e1096068, findElement {using=name, value=//div[@class=' css-yk16xz-control']//div[text()='Số ngày']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50393/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76cd114cc2b4e9829ecb5f10e1096068
+[INFO] 22-06-2023 16:38:37 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:43:14 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:43:16 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:43:19 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:43:19 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:43:19 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:43:19 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:43:20 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:43:25 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:43:25 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:43:29 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:43:29 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:43:29 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:43:29 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:43:30 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:43:31 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:43:31 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:43:34 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:43:35 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:43:35 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:43:35 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:43:36 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:43:36 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 16:43:36 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:43:36 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:43:36 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:43:36 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:43:37 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:43:37 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:43:37 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[ERROR] 22-06-2023 16:43:37 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:43:37 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [723faf949b59ac46bcd9ed81a8800381, findElement {using=name, value=//div[@class=' css-yk16xz-control']//div[text()='Số ngày']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57341/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 723faf949b59ac46bcd9ed81a8800381
+[INFO] 22-06-2023 16:43:38 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:47:47 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:47:50 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:47:52 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:47:52 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:47:52 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:47:53 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:47:53 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:47:59 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:48:00 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:48:03 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:48:03 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:48:03 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:48:03 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:48:04 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:48:05 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:48:05 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:48:09 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:48:09 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:48:09 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:48:10 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:48:10 [main] LogUtils - Clear text on element By.name: voucherForm
+[ERROR] 22-06-2023 16:48:10 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:48:10 [main] LogUtils - org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b75a0c883369b8335f3879c70785532, findElement {using=name, value=//div[@class=' css-yk16xz-control']//div[text()='Số ngày']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.140, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\keybl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52322/devtoo..., se:cdpVersion: 112.0.5615.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b75a0c883369b8335f3879c70785532
+[INFO] 22-06-2023 16:48:12 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 16:50:51 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 16:50:54 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 16:50:56 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 16:50:56 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 16:50:57 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 16:50:57 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 16:50:57 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 16:51:03 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 16:51:03 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 16:51:06 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 16:51:06 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 16:51:07 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 16:51:07 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 16:51:07 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:51:09 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:51:09 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 16:51:12 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 16:51:13 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 16:51:13 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:51:13 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 16:51:14 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 16:51:14 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 16:51:14 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 16:51:14 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:51:14 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:51:15 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:51:15 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 16:51:15 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:51:15 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 16:51:15 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 16:51:15 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 16:51:15 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 16:51:16 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 16:51:16 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 22-06-2023 16:51:16 [main] LogUtils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 16:51:16 [main] LogUtils - Clicked on element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 16:51:16 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 16:51:16 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 16:51:17 [main] LogUtils - Click And Set Text Đây là Iframe 0 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 16:51:17 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 16:51:17 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 16:51:17 [main] LogUtils - Click And Set Text Đây là Iframe 1 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 16:51:17 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 16:51:17 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 16:51:18 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 16:51:18 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 16:51:18 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 16:51:18 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 16:51:18 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 16:51:18 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 16:51:18 [main] LogUtils - Scroll to element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 16:51:18 [main] LogUtils - Clicked on element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 16:51:23 [main] LogUtils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 16:51:23 [main] LogUtils - Clicked on element By.xpath: //button[normalize-space()='Lưu']
+[ERROR] 22-06-2023 16:51:34 [main] LogUtils - Đây là test case bị fail: testEditVoucher
+[ERROR] 22-06-2023 16:51:34 [main] LogUtils - java.lang.AssertionError: Lưu không thành công expected [true] but found [false]
+[INFO] 22-06-2023 16:51:35 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 17:14:48 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 17:14:51 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 17:14:53 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 17:14:54 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 17:14:54 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 17:14:54 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 17:14:54 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 17:15:00 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 17:15:00 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 17:15:03 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 17:15:03 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 17:15:03 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 17:15:03 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 17:15:04 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:15:05 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:15:06 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:15:09 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 17:15:09 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 17:15:10 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:15:10 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 17:15:10 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:15:11 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 17:15:12 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 17:15:12 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:15:12 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 17:15:12 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 22-06-2023 17:15:12 [main] LogUtils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:15:12 [main] LogUtils - Clicked on element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:15:12 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:15:13 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:15:13 [main] LogUtils - Click And Set Text Đây là Iframe 0 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:15:13 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:15:13 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Click And Set Text Đây là Iframe 1 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Scroll to element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:15:14 [main] LogUtils - Clicked on element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:15:19 [main] LogUtils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:15:20 [main] LogUtils - Clicked on element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:15:26 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:15:26 [main] LogUtils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 22-06-2023 17:15:27 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 17:20:33 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 17:20:37 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 17:20:39 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 17:20:39 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 17:20:39 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 17:20:40 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 17:20:40 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 17:20:46 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 17:20:46 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 17:20:50 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 17:20:50 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 17:20:50 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 17:20:51 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 17:20:51 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:20:52 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:20:53 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:20:56 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 17:20:56 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 17:20:57 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:20:57 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 17:20:57 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:20:58 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 17:20:59 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 17:20:59 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:20:59 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 17:20:59 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 22-06-2023 17:20:59 [main] LogUtils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:20:59 [main] LogUtils - Clicked on element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:20:59 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:21:00 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:21:00 [main] LogUtils - Click And Set Text Đây là Iframe 0 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:21:00 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:21:00 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Click And Set Text Đây là Iframe 1 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Scroll to element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:21:01 [main] LogUtils - Clicked on element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:21:06 [main] LogUtils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:21:07 [main] LogUtils - Clicked on element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:21:13 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:21:13 [main] LogUtils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 22-06-2023 17:21:14 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 17:26:50 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 17:26:53 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 17:26:56 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 17:26:56 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 17:26:56 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 17:26:57 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 17:26:57 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 17:27:03 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 17:27:03 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 17:27:06 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 17:27:06 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 17:27:06 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 17:27:06 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 17:27:07 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:27:08 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:27:08 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:27:12 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 17:27:12 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 17:27:13 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:27:13 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 17:27:13 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:27:14 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 17:27:15 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 17:27:15 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:27:15 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 17:27:15 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 22-06-2023 17:27:15 [main] LogUtils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:27:15 [main] LogUtils - Clicked on element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:27:15 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:27:16 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:27:16 [main] LogUtils - Click And Set Text Đây là Iframe 0 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:27:16 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:27:16 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Click And Set Text Đây là Iframe 1 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Scroll to element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:27:17 [main] LogUtils - Clicked on element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:27:22 [main] LogUtils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:27:23 [main] LogUtils - Clicked on element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:27:29 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:27:29 [main] LogUtils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 22-06-2023 17:27:30 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 17:29:14 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 17:29:18 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 17:29:20 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 17:29:21 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 17:29:21 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 17:29:22 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 17:29:22 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 17:29:27 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 17:29:27 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 17:29:31 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 17:29:31 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 17:29:31 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 17:29:31 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 17:29:32 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:29:33 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:29:33 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:29:36 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 17:29:37 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 17:29:37 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:29:37 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 17:29:38 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 17:29:38 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 17:29:38 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:29:38 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:29:39 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:29:39 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:29:39 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:29:39 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:29:39 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:29:39 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 17:29:39 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 17:29:39 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:29:40 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 17:29:40 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 22-06-2023 17:29:40 [main] LogUtils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:29:40 [main] LogUtils - Clicked on element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:29:40 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:29:40 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:29:41 [main] LogUtils - Click And Set Text Đây là Iframe 0 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:29:41 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:29:41 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:29:41 [main] LogUtils - Click And Set Text Đây là Iframe 1 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:29:41 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:29:41 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:29:42 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:29:42 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:29:42 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:29:42 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:29:42 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:29:42 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:29:42 [main] LogUtils - Scroll to element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:29:42 [main] LogUtils - Clicked on element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:29:47 [main] LogUtils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:29:47 [main] LogUtils - Clicked on element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:29:53 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:29:53 [main] LogUtils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 22-06-2023 17:29:57 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 17:35:05 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 17:35:08 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 17:35:10 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 17:35:11 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 17:35:11 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 17:35:11 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 17:35:11 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 17:35:17 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 17:35:17 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 17:35:20 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 17:35:20 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 17:35:20 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 17:35:20 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 17:35:21 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:35:22 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:35:23 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:35:26 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 17:35:26 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 17:35:27 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:35:27 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 17:35:27 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 17:35:28 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 17:35:28 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:35:28 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:35:28 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:35:28 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:35:28 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:35:28 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:35:29 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:35:29 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 17:35:29 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 17:35:29 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:35:29 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 17:35:29 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 22-06-2023 17:35:29 [main] LogUtils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:35:30 [main] LogUtils - Clicked on element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:35:30 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:35:30 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:35:30 [main] LogUtils - Click And Set Text Đây là Iframe 0 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:35:30 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:35:31 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:35:31 [main] LogUtils - Click And Set Text Đây là Iframe 1 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:35:31 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:35:31 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:35:31 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:35:31 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:35:31 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:35:32 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:35:32 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:35:32 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:35:32 [main] LogUtils - Scroll to element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:35:32 [main] LogUtils - Clicked on element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:35:37 [main] LogUtils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:35:37 [main] LogUtils - Clicked on element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:35:45 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:35:45 [main] LogUtils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 22-06-2023 17:35:49 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 17:44:01 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 17:44:05 [main] LogUtils - Đang chạy testcase testEditVoucher
+[INFO] 22-06-2023 17:44:07 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 17:44:07 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 17:44:08 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 17:44:08 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 17:44:08 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 17:44:14 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 17:44:14 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 17:44:17 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 17:44:17 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 17:44:17 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 17:44:17 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 17:44:18 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:44:19 [main] LogUtils - Scroll to element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:44:20 [main] LogUtils - Clicked on element By.xpath: //div[@class='sc-ikkxIA ipBIwE rdt_TableBody']/div[1]//a[2]
+[INFO] 22-06-2023 17:44:23 [main] LogUtils - Clear text on element By.name: voucherName
+[INFO] 22-06-2023 17:44:23 [main] LogUtils - Clear text on element By.name: voucherRefId
+[INFO] 22-06-2023 17:44:24 [main] LogUtils - Clear text on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:44:24 [main] LogUtils - Clear text on element By.name: totalVouchers
+[INFO] 22-06-2023 17:44:24 [main] LogUtils - Clear text on element By.name: voucherForm
+[INFO] 22-06-2023 17:44:25 [main] LogUtils - Click And Set Text Ưu đã từ các nhãn hàng khác on element By.xpath: //div[@class=' css-yk16xz-control']//div[text()='Ưu đã từ các nhãn hàng khác']
+[INFO] 22-06-2023 17:44:25 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:44:25 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:44:25 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:44:25 [main] LogUtils - Scroll to element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:44:25 [main] LogUtils - Clicked on element By.xpath: //span[normalize-space()='Tất cả']
+[INFO] 22-06-2023 17:44:25 [main] LogUtils - Scroll to element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:44:25 [main] LogUtils - Clicked on element By.xpath: //div[@class='dropdown-heading-value']
+[INFO] 22-06-2023 17:44:26 [main] LogUtils - Click And Set Text "Quà Vieon Number 3" on element By.name: voucherName
+[INFO] 22-06-2023 17:44:26 [main] LogUtils - Click And Set Text Giảm 100% on element By.name: voucherRefId
+[INFO] 22-06-2023 17:44:26 [main] LogUtils - Click And Set Text 10 on element By.name: pointsToRedeem
+[INFO] 22-06-2023 17:44:26 [main] LogUtils - Click And Set Text 100 on element By.name: totalVouchers
+[INFO] 22-06-2023 17:44:26 [main] LogUtils - Click And Set Text Dùng Điểm Đổi on element By.name: voucherForm
+[INFO] 22-06-2023 17:44:27 [main] LogUtils - Scroll to element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:44:27 [main] LogUtils - Clicked on element By.xpath: //div[@class ='react-switch-bg']
+[INFO] 22-06-2023 17:44:27 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:44:27 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:44:27 [main] LogUtils - Click And Set Text Đây là Iframe 0 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:44:27 [main] LogUtils - Scroll to element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:44:28 [main] LogUtils - Clear text on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:44:28 [main] LogUtils - Click And Set Text Đây là Iframe 1 on element By.xpath: //html[@dir='ltr']
+[INFO] 22-06-2023 17:44:28 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:44:28 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Từ ngày']
+[INFO] 22-06-2023 17:44:28 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:44:28 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Tuesday, June 6th, 2023']
+[INFO] 22-06-2023 17:44:28 [main] LogUtils - Scroll to element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:44:29 [main] LogUtils - Clicked on element By.xpath: //input[@placeholder='Đến ngày']
+[INFO] 22-06-2023 17:44:29 [main] LogUtils - Scroll to element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:44:29 [main] LogUtils - Clicked on element By.xpath: //div[@aria-label='Choose Friday, June 30th, 2023']
+[INFO] 22-06-2023 17:44:29 [main] LogUtils - Scroll to element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:44:29 [main] LogUtils - Clicked on element By.xpath: //label[contains(text(),'Chọn ảnh')]
+[INFO] 22-06-2023 17:44:34 [main] LogUtils - Scroll to element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:44:34 [main] LogUtils - Clicked on element By.xpath: //button[normalize-space()='Lưu']
+[INFO] 22-06-2023 17:44:40 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:44:40 [main] LogUtils - Đây là test case chạy thành công: testEditVoucher
+[INFO] 22-06-2023 17:44:44 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 17:49:53 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 17:49:56 [main] LogUtils - Đang chạy testcase checkNumberOfVoucher
+[INFO] 22-06-2023 17:49:58 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 17:49:59 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 17:49:59 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 17:49:59 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 17:50:00 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 17:50:06 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 17:50:06 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 17:50:09 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 17:50:09 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 17:50:10 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 17:50:10 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 17:50:10 [main] LogUtils - Press Key Enter 
+[INFO] 22-06-2023 17:50:10 [main] LogUtils - Đây là test case chạy thành công: checkNumberOfVoucher
+[INFO] 22-06-2023 17:50:14 [main] LogUtils - End testing MyProject
+[INFO] 22-06-2023 17:51:08 [main] LogUtils - Launching Chrome Browser...
+[INFO] 22-06-2023 17:51:10 [main] LogUtils - Đang chạy testcase checkNumberOfVoucher
+[INFO] 22-06-2023 17:51:12 [main] LogUtils - Open URL https://doanhnghiep-development.dpoint.vn/login
+[INFO] 22-06-2023 17:51:13 [main] LogUtils - Get Text of Element By.xpath: //h1[normalize-space()='Đăng nhập']
+[INFO] 22-06-2023 17:51:13 [main] LogUtils - =>>Text Đăng nhập
+[INFO] 22-06-2023 17:51:13 [main] LogUtils - Click And Set Text VieonDpoint on element By.xpath: //input[@placeholder='Nhập tên đăng nhập']
+[INFO] 22-06-2023 17:51:13 [main] LogUtils - Click And Set Text Dpoint@2021 on element By.xpath: //input[@placeholder ='Mật khẩu']
+[INFO] 22-06-2023 17:51:20 [main] LogUtils - Get Text of Element By.xpath: //li[normalize-space()='Trang chủ']
+[INFO] 22-06-2023 17:51:20 [main] LogUtils - =>>Text Trang chủ
+[INFO] 22-06-2023 17:51:23 [main] LogUtils - Get Text of Element By.xpath: //a[normalize-space()='Chương trình loyalty']
+[INFO] 22-06-2023 17:51:23 [main] LogUtils - =>>Text Chương trình loyalty
+[INFO] 22-06-2023 17:51:23 [main] LogUtils - Get Text of Element By.xpath: //a[text()='Hạng thành viên']
+[INFO] 22-06-2023 17:51:23 [main] LogUtils - =>>Text Hạng thành viên
+[INFO] 22-06-2023 17:51:23 [main] LogUtils - Đây là test case chạy thành công: checkNumberOfVoucher
+[INFO] 22-06-2023 17:51:27 [main] LogUtils - End testing MyProject

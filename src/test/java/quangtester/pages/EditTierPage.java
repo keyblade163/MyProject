@@ -18,6 +18,6 @@ public class EditTierPage {
         clickOnElement(editRow1Tier);
     }
 
-
+//Không lấy được locater nên bó tay ;___;
 
 }

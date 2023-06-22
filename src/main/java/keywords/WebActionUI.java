@@ -17,7 +17,7 @@ import java.time.Duration;
 public class WebActionUI {
 
     public static void waitForElementVisible(By by) {
-        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
     }
 

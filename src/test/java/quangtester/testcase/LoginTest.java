@@ -15,7 +15,6 @@ public class LoginTest extends BaseSetup {
         ExcelHelper excelHelper = new ExcelHelper();
         excelHelper.setExcelFile("src/test/resources/datatest/Login.xlsx","Sheet1");
         loginPage.login(excelHelper.getCellData("EMAIL", 1),excelHelper.getCellData("PASSWORD",1));
-
     }
 
     @Test(dataProvider = "dataLoginVieon", dataProviderClass = DataLogin.class)

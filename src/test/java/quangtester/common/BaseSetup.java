@@ -2,6 +2,7 @@ package quangtester.common;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import keywords.DriverManager;
+import keywords.WebActionUI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -57,6 +58,7 @@ public class BaseSetup {
     @AfterMethod
     public void closeDriver() {
         if (DriverManager.getDriver() != null) {
+            WebActionUI.sleep(3);
             DriverManager.quit();
         }
     }
